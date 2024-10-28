@@ -9,6 +9,7 @@ import PropiedadConmutada from "./components/PropiedadConmutada.vue";
 import NumeroParImpar2 from "./components/NumeroParImpar2.vue";
 import NumeroParImpar from "./components/NumeroParImpar.vue";
 import NumeroParImpar3 from "./components/NumeroParImpar3.vue";
+import MetodosFilters from "./MetodosFilters.vue";
 
 const myRoutes = [
 
@@ -20,7 +21,9 @@ const myRoutes = [
     { path: "/conmutada", component: PropiedadConmutada},
     { path: "/parimpar1", component: NumeroParImpar},
     { path: "/parimpar2", component: NumeroParImpar2},
-    { path: "/parimpar3", component: NumeroParImpar3}
+    { path: "/parimpar3", component: NumeroParImpar3},
+    { path: "/filters", component: MetodosFilters}
+
 
 
 ]

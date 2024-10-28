@@ -28,6 +28,9 @@
             <li>
                 <router-link to="/parimpar3">Par o Impar 3</router-link>
             </li>
+            <li>
+                <router-link to="/filters">Filters</router-link>
+            </li>
         </ul>
 
     </div>
