@@ -1,6 +1,5 @@
 <template>
     <div>
-      
         <ul id="menu">
             <li>
                 <router-link to="/">Home</router-link>
@@ -19,6 +18,15 @@
             </li>
             <li>
                 <router-link to="/conmutada">Conmutada</router-link>
+            </li>
+            <li>
+                <router-link to="/parimpar1">Par o Impar 1</router-link>
+            </li>
+            <li>
+                <router-link to="/parimpar2">Par o Impar 2</router-link>
+            </li>
+            <li>
+                <router-link to="/parimpar3">Par o Impar 3</router-link>
             </li>
         </ul>
 
